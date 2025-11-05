@@ -76,13 +76,11 @@ document.write('<br><button onclick="window.location.href=\'index.html\'">Retour
 
 else if (chiffreUtilisateur === chiffreSecret) {
   document.write ("Félicitations ! Vous avez trouvé le chiffre : " + chiffreSecret);
-document.write ("Votre chiffre est inférieur au chiffre secret !<br>");
    document.write ("chiffre secret :"+chiffreSecret+"<br>")
    document.write ("Nombre saisi :"+chiffreUtilisateur+"<br>")
 document.write('<br><button onclick="window.location.href=\'index.html\'">Retour</button>');}
 else {
- document.write ("Veuillez entrer un nombre valide !");
-document.write ("Votre chiffre est inférieur au chiffre secret !<br>");
+ document.write ("Veuillez entrer un nombre valide !<br>");
    document.write ("chiffre secret :"+chiffreSecret+"<br>")
    document.write ("Nombre saisi :"+chiffreUtilisateur+"<br>")
 document.write('<br><button onclick="window.location.href=\'index.html\'">Retour</button>');}

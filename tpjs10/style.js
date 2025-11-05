@@ -31,7 +31,7 @@ function simple_affichage(){
 let prenome = prompt("donner votre prenom ")
 
    document.write('<div style="margin:auto; width:300px; border:2px solid blue;">');
-   document.write("bonjour"+prenome +""+name);
+   document.write("bonjour"     +prenome +"       "+name);
    document.write('</div>');
 }
 function test_couleur(){
